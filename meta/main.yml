@@ -1,0 +1,35 @@
+---
+galaxy_info:
+  author: Benjamin Smith
+  description: Installs the AWS Inspector Agent.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: GenericUNIX
+    versions:
+    - all
+    - any
+  - name: Fedora
+    versions:
+    - all
+  - name: Amazon
+    versions:
+    - all
+    - 2013.03
+    - 2013.09
+  - name: Ubuntu
+    versions:
+    - all
+  - name: GenericLinux
+    versions:
+    - all
+    - any
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - cloud
+  - cloud:ec2
+  - monitoring
+dependencies: []
+

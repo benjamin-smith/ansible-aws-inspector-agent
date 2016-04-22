@@ -1,0 +1,9 @@
+---
+
+- name:
+  get_url:
+    url: "{{ install_script_url }}"
+    dest: "/tmp/aws-inspector-agent-install"
+
+- name: run installer
+  command: bash /tmp/aws-inspector-agent-install
